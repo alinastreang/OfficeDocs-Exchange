@@ -12,10 +12,10 @@ mtps_version: v=EXCHG.150
 
  
 
-_**Applies to:** Exchange Online, Exchange Server 2013_
+_**Applies to:** Exchange Online, Exchange Server 2013, Exchange 2016
 
 
-Exchange 2013-only hybrid deployments configure OAuth authentication when using the Hybrid Configuration Wizard. For mixed Exchange 2013/2010 and Exchange 2013/2007 hybrid deployments, the new hybrid deployment OAuth-based authentication connection between Office 365 and on-premises Exchange organizations isn’t configured by the Hybrid Configuration wizard. These deployments continue to use the federation trust process by default. However, certain Exchange 2013 features are only fully available across your organization by using the new Exchange OAuth authentication protocol.
+Exchange 2013/2016 -only hybrid deployments configure OAuth authentication when using the Hybrid Configuration Wizard. For mixed Exchange 2013 and later/2010 and Exchange 2013 and later/2007 hybrid deployments, the new hybrid deployment OAuth-based authentication connection between Office 365 and on-premises Exchange organizations isn’t configured by the Hybrid Configuration wizard. These deployments continue to use the federation trust process by default. However, certain Exchange 2013/2016 features are only fully available across your organization by using the new Exchange OAuth authentication protocol.
 
 The new Exchange OAuth authentication process currently enables the following Exchange features:
 
@@ -25,11 +25,11 @@ The new Exchange OAuth authentication process currently enables the following Ex
 
   - Exchange In-place Archiving
 
-We recommend that all mixed Exchange organizations that implement a hybrid deployment with Exchange 2013 and Exchange Online configure Exchange OAuth authentication after configuring their hybrid deployment with the Hybrid Configuration Wizard.
+We recommend that all mixed Exchange organizations that implement a hybrid deployment with Exchange 2013/2016 and Exchange Online configure Exchange OAuth authentication after configuring their hybrid deployment with the Hybrid Configuration Wizard.
 
 
 > [!IMPORTANT]
-> If your on-premises organization is running only Exchange 2013 servers with Cumulative Update 5 or later installed, run the Hybrid Deployment Wizard instead of performing the steps in this topic.<BR>This feature of Exchange Server 2013 isn’t fully compatible with Office 365 operated by 21Vianet in China and some feature limitations may apply. For more information, see <A href="https://go.microsoft.com/fwlink/?linkid=313640">Learn about Office 365 operated by 21Vianet</A>.
+> If your on-premises organization is running only Exchange 2013 servers with Cumulative Update 5 or later installed or Exchange 2016, run the Hybrid Deployment Wizard instead of performing the steps in this topic.<BR>This feature of Exchange Server 2013 isn’t fully compatible with Office 365 operated by 21Vianet in China and some feature limitations may apply. For more information, see <A href="https://go.microsoft.com/fwlink/?linkid=313640">Learn about Office 365 operated by 21Vianet</A>.
 
 
 
